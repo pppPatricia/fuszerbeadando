@@ -1,0 +1,39 @@
+#kicsi{
+    font-size: smaller;
+}
+
+body{
+    background-color: #e62a7f;
+    text-align: justify;
+}
+
+#vers{
+    font-style: italic;
+    
+}
+
+ul{
+    list-style-image: url(teaa.png);
+} 
+body{
+    text-align: justify;
+    padding: 50px;
+    background-color: rgba(255, 220, 182);
+}
+p{
+    padding: 5px;
+    margin: 10px;
+}
+
+img{
+    float: right;
+    border-radius: 10px;
+    max-width: 50%;
+    height: auto;
+    margin: 20px;
+}
+
+#balra
+{
+    float: left;
+}
