@@ -1,3 +1,4 @@
+
 var fuszerNevek = [];
 fuszerNevek["Gyros"] = "oregánó, kakukkfű, fokhagyma, só, bors, szerecsendió, római kömény";
 fuszerNevek["Mézeskalács"] = "kardamom, csillagánizs, fahéj, szegfűbors, szegfűszeg, gyömbér, szerecsendió";

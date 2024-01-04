@@ -9,14 +9,16 @@
     <script src="keverek.js"></script>
     <link rel="stylesheet" href="fuszer.css">
     <link rel="stylesheet" href="bootstrap.min.css">
+  
     
     <title>Fűszerek</title>
 </head>
 <body>
- 
+ <img src="spices.png" id="kisebb" class="balra" alt="">
+ <img src="spices.png" id="kisebb" alt="">
 <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-red">
-      <a class="navbar-brand" href="#">Főoldal</a>
+      <a class="navbar-brand" href="#">H</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -29,7 +31,7 @@
             <a class="nav-link" href="#gyakori"> Gyakori fűszerek</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#hatasa"> Gyógyatásai</a>
+            <a class="nav-link" href="#hatasa"> Gyógyhatásai</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#kulonleges">Különlegességek</a>
@@ -42,48 +44,58 @@
     </div>
       
 <h1>Fűszerek</h1>
-<p id="vers">Örvendj a hóvirágnak, az ibolyának és a búzavirágnak. <br>
-Az erdő csöndjének. <br>
-Ha egyedül vagy: annak, hogy egyedül lehetsz. <br>Ha nem vagy egyedül: annak, hogy nem kell egyedül légy. <br>
-Vágyódj arra, amit a holnap hoz, és örvendj annak, ami ma van.</p>    
-    
+<br>
 <h2 id="tortenete">Története</h2>
 
-<img src="fuszer1.jpg" class="jobbra" alt="Alapfűszerek" title="Alapfűszerek">
+
 <p>A fűszerek általában növényekből nyert anyagok, melyek erős aromájú hatóanyagait használhatjuk fel az ételek ízesítéséhez, tartósításához. Általában igen kevés mennyiségben szükséges őket az ételhez adnunk, az íz és az illat megőrzése, módosítása céljából.
 Fűszerként a növény különböző részeit használhatjuk fel: gyökerét (gyömbér), kérgét (fahéj), levelét (bazsalikom), termését (ánizs), virágát (szegfűszeg) vagy magját (mustár).
 A fűszereket gyakran használják  illatszerek, parfümök és gyógyszerek előállításához is.</p>
+<img src="fuszer1.jpg" class="balra" alt="Alapfűszerek" title="Alapfűszerek">
 <p id="kicsi">A fűszerek igazi hazája India, ott használják a legtöbb és legerősebb fűszereket az ételek készítéséhez még napjainkban is.
 Számos Európában őshonos fűszernövényt is megemlíthetünk, a legrégebben használt európai fűszerek a kömény, a kakukkfű, az ánizs és a zsálya, melyeket a magyar konyha is gyakran használ.</p>
 
 <h2 id="gyakori"> Gyakori fűszerek </h2>
-<p> A só egyike az alapvető fűszereknek, és egyben az egyik legősibb ismert ízesítő anyag. Az ételíz és az élelmiszer tartósításának szempontjából is fontos szerepet játszik. 
+<p> A <span>só</span> egyike az alapvető fűszereknek, és egyben az egyik legősibb ismert ízesítő anyag. Az ételíz és az élelmiszer tartósításának szempontjából is fontos szerepet játszik. 
 
 </p>
-<p>A bors jellegzetes csípős és fűszeres ízzel rendelkezik, amelyet az ételek ízének kiemelésére és mélyítésére használnak. Gyakran használják konyháinkban, szinte minden étel fűszerezésére, beleértve húsokat, tenger gyümölcseit, zöldségeket és szószokat is. </p>
-<p>A pirospaprika magyar gasztronómia jellegzetes fűszere, de számos más országban is használják. Világhírűvé vált a kalocsai és a szegedi fűszerpaprika-őrlemény. </p>
+<p>A <span>bors</span> jellegzetes csípős és fűszeres ízzel rendelkezik, amelyet az ételek ízének kiemelésére és mélyítésére használnak. Gyakran használják konyháinkban, szinte minden étel fűszerezésére, beleértve húsokat, tenger gyümölcseit, zöldségeket és szószokat is. </p>
+<p>A <span>pirospaprika</span> magyar gasztronómia jellegzetes fűszere, de számos más országban is használják. Világhírűvé vált a kalocsai és a szegedi fűszerpaprika-őrlemény. </p>
 <p></p>
-<h2 id="gyogyhatasai"> Gyógyhatásai </h2>
-<img src="gyogyh.png" class="balra" alt="Gyógyhatásai" title="Gyógyhatásai">
+<img src="levendulaszm.jpg" alt="">
 
 <h2 id="kulonleges">Különlegességek</h2>
-       
-  
-<form id="keverekek" method="post">
-<p>Fűszerkeverék: 
-<br>
-<select id="keverek" onchange="fuszerKiiras(this.value)" id="fkeverek">       
-<script>fuszerNevek.forEach(keverekKiiras);
-</script>
-</select>
-</p>
-<p>Összetevői:<br>
-<b id="fuszer"></b>
-<script>fuszerKiiras("Gyros");</script>
-</b>
-</p>
-</form>
+<h3>Anardana</h3>
+<p> 
 
-     
+  Az anardana nem más, mint egy a gránátalma magvaiból készülő, melaszosan édeskés ízvilággal rendelkező fűszer. A perzsa és az indiai konyha egy rendkívül fontos eleme, amely kitűnően illeszkedik mind a zöldségekhez, mind a gyümölcsökhöz és diófélékhez, de csokoládéban, szószokban és húsok számára is igazán különleges ízvilágot kölcsönöz. Használható akár egészben is, de darabos, vagy finomra darált változatban is szokták alkalmazni.</p>
+  <h3>Levendulás cukor</h3>
+<p> Nevéhez hűen a levendulás cukor nem más, mint a levendula és a cukor keveréke. Fantasztikusan alkalmazható torták, sütemények és kenyerek tésztájához. </p>
+<h3>Fekete szezámmag</h3>
+  <p>
+  A fekete szezámmag az ételeknek diós ízvilágot kölcsönöz, valamint a látványt is igazán gazdaggá teszi. Gyakran használatos japán és kínai ételek elkészítéséhez: tofu, saláták, mártások és desszertek is készülnek vele. A japánok szezámsót is készítenek belőle, amely pörkölt magvak és só keverékéből tevődik össze.</p>
+  <h3>Achiote vagy Annatto</h3>
+  <p>
+  Az annatto nem más, mint az orleánfa magjaiból és gyümölcsének piros húsából készített fűszer. Mivel színe erős narancsvörös, ételszínezékként is használatos. Édeskés ízvilága a paprika és a szerecsendió között helyezhető el. Elsősorban közép- és délamerikai ételek elkészítésére használják, de mexikói ételekben is gyakran fellelhető. Azoknál, akik érzékenyek a színezékekre, érdemes óvatosnak lenni, ugyanis allergiás reakciót okozhat</p>
+
+
+  <img src="gyogyhatasai.png" id="hatasa" id="kozep" alt="Gyógyhatásai" title="Gyógyhatásai">
+<div>
+<form id="keverekek" method="post">
+  <p>Fűszerkeverék: 
+  <br>
+  <select id="fkeverek" onchange="fuszerKiiras(this.value)">       
+  <script>fuszerNevek.forEach(keverekKiiras);
+  </script>
+  </select>
+  </p>
+  <p>Összetevői:<br>
+  <b id="fuszer"></b>
+  <script>fuszerKiiras("Gyros");</script>
+  </b>
+  </p>
+</form>
+</div>
+
 </body>
 </html>
