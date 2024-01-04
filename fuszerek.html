@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="keverek.js"></script>
+    <link rel="stylesheet" href="fuszer.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    
+    <title>Fűszerek</title>
+</head>
+<body>
+ 
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-red">
+      <a class="navbar-brand" href="#">Főoldal</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav nav-tabs bg-red">
+          <li class="nav-item active">
+            <a class="nav-link" href="#tortenet"> Története <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gyakori"> Gyakori fűszerek</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hatasa"> Gyógyatásai</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kulonleges">Különlegességek</a>
+          </li>  
+          <li class="nav-item">
+            <a class="nav-link" href="#keverekek"> Keverékek </a>   
+        </ul>
+      </div>
+    </nav>
+    </div>
+      
+<h1>Fűszerek</h1>
+<p id="vers">Örvendj a hóvirágnak, az ibolyának és a búzavirágnak. <br>
+Az erdő csöndjének. <br>
+Ha egyedül vagy: annak, hogy egyedül lehetsz. <br>Ha nem vagy egyedül: annak, hogy nem kell egyedül légy. <br>
+Vágyódj arra, amit a holnap hoz, és örvendj annak, ami ma van.</p>    
+    
+<h2 id="tortenete">Története</h2>
+
+<img src="fuszer1.jpg" class="jobbra" alt="Alapfűszerek" title="Alapfűszerek">
+<p>A fűszerek általában növényekből nyert anyagok, melyek erős aromájú hatóanyagait használhatjuk fel az ételek ízesítéséhez, tartósításához. Általában igen kevés mennyiségben szükséges őket az ételhez adnunk, az íz és az illat megőrzése, módosítása céljából.
+Fűszerként a növény különböző részeit használhatjuk fel: gyökerét (gyömbér), kérgét (fahéj), levelét (bazsalikom), termését (ánizs), virágát (szegfűszeg) vagy magját (mustár).
+A fűszereket gyakran használják  illatszerek, parfümök és gyógyszerek előállításához is.</p>
+<p id="kicsi">A fűszerek igazi hazája India, ott használják a legtöbb és legerősebb fűszereket az ételek készítéséhez még napjainkban is.
+Számos Európában őshonos fűszernövényt is megemlíthetünk, a legrégebben használt európai fűszerek a kömény, a kakukkfű, az ánizs és a zsálya, melyeket a magyar konyha is gyakran használ.</p>
+
+<h2 id="gyakori"> Gyakori fűszerek </h2>
+<p> A só egyike az alapvető fűszereknek, és egyben az egyik legősibb ismert ízesítő anyag. Az ételíz és az élelmiszer tartósításának szempontjából is fontos szerepet játszik. 
+
+</p>
+<p>A bors jellegzetes csípős és fűszeres ízzel rendelkezik, amelyet az ételek ízének kiemelésére és mélyítésére használnak. Gyakran használják konyháinkban, szinte minden étel fűszerezésére, beleértve húsokat, tenger gyümölcseit, zöldségeket és szószokat is. </p>
+<p>A pirospaprika magyar gasztronómia jellegzetes fűszere, de számos más országban is használják. Világhírűvé vált a kalocsai és a szegedi fűszerpaprika-őrlemény. </p>
+<p></p>
+<h2 id="gyogyhatasai"> Gyógyhatásai </h2>
+<img src="gyogyh.png" class="balra" alt="Gyógyhatásai" title="Gyógyhatásai">
+
+<h2 id="kulonleges">Különlegességek</h2>
+       
+  
+<form id="keverekek" method="post">
+<p>Fűszerkeverék: 
+<br>
+<select id="keverek" onchange="fuszerKiiras(this.value)" id="fkeverek">       
+<script>fuszerNevek.forEach(keverekKiiras);
+</script>
+</select>
+</p>
+<p>Összetevői:<br>
+<b id="fuszer"></b>
+<script>fuszerKiiras("Gyros");</script>
+</b>
+</p>
+</form>
+
+     
+</body>
+</html>
